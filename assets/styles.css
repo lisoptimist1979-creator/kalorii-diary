@@ -253,7 +253,7 @@ input, select { font: inherit; color: inherit; }
 }
 
 /* ---------- tools row ---------- */
-.tools { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 14px; }
+.tools { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 14px; }
 .tool {
   display: flex; flex-direction: column; align-items: center; gap: 4px;
   background: var(--card); border: 1px solid var(--line); border-radius: 14px;
@@ -275,10 +275,10 @@ input, select { font: inherit; color: inherit; }
   font-size: 15px; font-weight: 650; padding: 11px 0 4px; border-top: 1px solid var(--line);
 }
 
-/* ---------- ai status ---------- */
-.ai-status {
+/* ---------- status line ---------- */
+.status-line {
   font-size: 13px; padding: 10px 12px; border-radius: 12px; margin-bottom: 12px;
   background: var(--soft); color: var(--muted);
 }
-.ai-status.loading { background: var(--accent-soft); color: #1d4ed8; }
-.ai-status.error { background: #fef2f2; color: #b91c1c; }
+.status-line.loading { background: var(--accent-soft); color: #1d4ed8; }
+.status-line.error { background: #fef2f2; color: #b91c1c; }
