@@ -275,10 +275,17 @@ input, select { font: inherit; color: inherit; }
   font-size: 15px; font-weight: 650; padding: 11px 0 4px; border-top: 1px solid var(--line);
 }
 
-/* ---------- status line ---------- */
+/* ---------- статусная строка ---------- */
 .status-line {
   font-size: 13px; padding: 10px 12px; border-radius: 12px; margin-bottom: 12px;
   background: var(--soft); color: var(--muted);
 }
 .status-line.loading { background: var(--accent-soft); color: #1d4ed8; }
 .status-line.error { background: #fef2f2; color: #b91c1c; }
+
+/* ---------- внешний поиск ---------- */
+.off-block { margin-top: 12px; }
+.off-head {
+  font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase;
+  letter-spacing: .04em; padding: 12px 4px 6px; border-top: 1px solid var(--line);
+}
